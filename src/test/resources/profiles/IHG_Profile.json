@@ -1,0 +1,174 @@
+﻿{
+  "data": {
+    "customer": "IHG",
+    "environment": [{"cit": "Y"}, {"int": "N"}, {"qcpprd": "N"}, {"intprd": "N"}, {"btprd": "N"}],
+    "features": [
+      {
+        "featureName": "Rates",
+        "uabName": "PredefinedPackages",
+        "execution_Flag": "Y",
+        "kVs": [
+          {
+            "EnablePredefinedPackages": "1"
+          },
+          {
+            "EnableConsumptionRules": "1"
+          }
+        ],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/Rates/PredefinedPackages/*"
+      },
+      {
+        "featureName": "Rates",
+        "uabName": "At Least/ At Most On NRI Rates",
+        "execution_Flag": "Y",
+        "kVs": [
+          {
+            "AtLeastAtMostForNREnabled": "1"
+          },
+          {
+            "EnableYieldTypesForNRI": "1"
+          },
+          {
+            "NRCapacityManagementEnabled": "1"
+          }
+        ],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/Rates/AtLeastAtMostOnNRIRates/*"
+      },
+      {
+        "featureName": "Rates",
+        "uabName": "Yield Types For NRI Rates And Hurdle Points",
+        "execution_Flag": "Y",
+        "kVs": [
+          {
+            "EnableOTAFeeTaxType": "1"
+          },
+          {
+            "EnableMultipleTaxModel": "1"
+          }
+        ],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/Rates/YieldTypesForNRIRatesAndHurdlePoints/*"
+      },
+      {
+        "featureName": "Rates",
+        "uabName": "No UAB Tests",
+        "execution_Flag": "Y",
+        "kVs": [],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/Rates/NoUABTests/*"
+      },
+      {
+        "featureName": "Rates",
+        "uabName": "Exclusion Rules",
+        "execution_Flag": "Y",
+        "kVs": [
+          {
+            "ExclusionRulesEnabled": "1"
+          }
+        ],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/Rates/ExclusionRules/*"
+      },
+      {
+        "featureName": "Non Room Inventories",
+        "uabName": "NRI Types - Open/Close Inventory",
+        "execution_Flag": "Y",
+        "kVs": [
+          {
+            "NRClosedRestrictionsEnabled": "1"
+          },
+          {
+            "NRCapacityManagementEnabled": "1"
+          },
+          {
+            "EnableYieldTypesForNRI": "1"
+          }
+        ],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/NonRoomInventories/NRITypesOpenCloseInventory/*"
+      },
+      {
+        "featureName": "Push Pull Partners",
+        "uabName": "Change Discovery Service",
+        "execution_Flag": "Y",
+        "kVs": [
+          {
+            "EnablePredefinedPackages": "1"
+          },
+          {
+            "ChannelChangeDiscoveryEnabled": "1"
+          },
+          {
+            "ChangeDiscoveryEngineDistributionRulesEnabled": "1"
+          },
+          {
+            "ChannelChangeDiscoveryEnabled": "1"
+          },
+          {
+            "ChangeDiscoveryEngineDistributionRulesEnabled": "1"
+          },
+          {
+            "ChannelAvailabilityAndPricingNotifEnabled": "1"
+          },
+          {
+            "ChannelCalendarDataEnabled": "1"
+          },
+          {
+            "ChannelChangeDiscoveryEngineNotificationsEnabled": "1"
+          },
+          {
+            "InventoryChangeDiscoveryEngineNotificationsEnabled": "1"
+          },
+          {
+            "ConfigChangeDiscoveryEngineNotificationsEnabled": "1"
+          },
+          {
+            "ShoppingChangeDiscoveryEngineNotificationsEnabled": "1"
+          },
+          {
+            "ReservationChangeDiscoveryEngineNotificationsEnabled": "1"
+          },
+          {
+            "IsCDEPushMessageEnabled": "1"
+          },
+          {
+            "EnableCreateManualSync": "1"
+          },
+          {
+            "ManualSynchronizationTransitionPhase": "1"
+          },
+          {
+            "DistributionRulesCDESettingsEnabled": "1"
+          },
+          {
+            "EnableAvalonDistributionRulesSync": "1"
+          },
+          {
+            "DesynchReportsDisplayed": "1"
+          },
+          {
+            "DisplayTimeStampOfLastChanges": "1"
+          }
+        ],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/PushPullPartners/ChangeDiscoveryService/*"
+      }
+    ]
+  }
+}

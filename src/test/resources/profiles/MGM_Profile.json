@@ -1,0 +1,62 @@
+﻿{
+  "data": {
+    "customer": "MGM",
+    "environment": [{"cit": "Y"}, {"int": "N"}, {"qcpprd": "N"}, {"intprd": "N"}, {"btprd": "N"}],
+    "features": [
+      {
+        "featureName": "IdeasRMS",
+        "uabName": "DynamicHurdlePoint",
+        "execution_Flag": "Y",
+        "kVs": [
+          {
+            "DynamicHurdlePointEnabled": "1"
+          }
+        ],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/RMS/Ideas/DynamicHurdlePoint/*"
+      },
+      {
+        "featureName": "Profiles",
+        "uabName": "OPMS Certification Tests",
+        "execution_Flag": "Y",
+        "kVs": [],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/Profiles/OPMSCertificationTests/*"
+      },
+      {
+        "featureName": "Rates",
+        "uabName": "OPMS Certification Tests",
+        "execution_Flag": "Y",
+        "kVs": [],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/Rates/OPMSCertificationTests/*"
+      },
+      {
+        "featureName": "Reservation",
+        "uabName": "OPMS Certification Tests",
+        "execution_Flag": "Y",
+        "kVs": [],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/Reservation/OPMSCertificationTests/*"
+      },
+      {
+        "featureName": "IdeasRMS",
+        "uabName": "OPMS Certification Tests",
+        "execution_Flag": "Y",
+        "kVs": [],
+        "associatedUABs": [],
+        "subUABs": [],
+        "jobName": "",
+        "mavenGoal": "**/Features/RMS/Ideas/OPMSCertificationTests/*"
+      }
+    ]
+  }
+}
